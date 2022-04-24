@@ -62,7 +62,7 @@ function twoNumberSum(arr, target) {
   // you can use each integer once
   // multiple pointers strategy
   let left = 0;
-  let right = arr.length - 1;
+  let right = sorted.length - 1;
   while (left < right) {
     let sum = sorted[left] + sorted[right]);
     if (sum === target) {
